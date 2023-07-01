@@ -1,0 +1,205 @@
+<html>
+<head>
+<link rel="stylesheet" href='../static/index.css'>
+</head>
+<body>
+    <h1> Auto Insurance Fraud Detection</h1>
+    <form action = "/login" method= "post">
+    <p>Months as customer : <input type="text" name = "mac" /></p>
+    
+    <p>Age : <input type="text" name = "ag" /></p>
+    
+    <label for = "states">Choose the Policy state</label>
+    <select name ="ps">
+    <option Value = "oh">OH</option>
+    <option Value = "il">IL</option>
+    <option Value = "in">IN</option>
+    </select>
+
+    <p>Policy Deductable : <input type="text" name = "pd" /></p>
+
+    <p>Policy Annual Premium : <input type="text" name = "pap" /></p>
+
+    <p>Umbrella Limit : <input type="text" name = "ul" /></p>
+
+    <label for = "states">Choose the Insured sex</label>
+    <select name ="is">
+    <option Value = "fe">FEMALE</option>
+    <option Value = "ma">MALE</option>
+    </select><br><br>
+
+    <label for = "states">Choose the Insured education level</label>
+    <select name ="iel">
+    <option Value = "jd">JD</option>
+    <option Value = "hs">High School</option>
+    <option Value = "as">Associate</option>
+    <option Value = "md">MD</option>
+    <option Value = "mas">Masters</option>
+    <option Value = "phd">PhD</option>
+    <option Value = "clg">College</option>
+    </select><br><br>    
+
+    <label for = "states">Choose the Insured occupation</label>
+    <select name ="io">
+    <option Value = "moi">machine-op-inspct</option>
+    <option Value = "ps">prof-specialty</option>
+    <option Value = "ts">tech-support</option>
+    <option Value = "sal">sales</option>
+    <option Value = "em">exec-managerial</option>
+    <option Value = "cr">craft-repair</option>
+    <option Value = "tm">transport-moving</option>
+    <option Value = "os">other-service</option>
+    <option Value = "phs">priv-house-serv</option>
+    <option Value = "af">armed-forces</option>
+    <option Value = "adc">adm-clerical</option>
+    <option Value = "ps">protective-serv</option>
+    <option Value = "hac">handlers-cleaners</option>
+    <option Value = "ff">farming-fishing</option>
+    </select><br><br>
+
+    <label for = "states">Choose the Insured hobbies</label>
+    <select name ="ih">
+    <option Value = "re">reading</option>
+    <option Value = "ex">exercise</option>
+    <option Value = "pai">paintball</option>
+    <option Value = "bun">bungie-jumping</option>
+    <option Value = "mov">movies</option>
+    <option Value = "go">golf</option>
+    <option Value = "camp">camping</option>
+    <option Value = "kaya">kayaking</option>
+    <option Value = "ya">yachting</option>
+    <option Value = "hi">hiking</option>
+    <option Value = "vg">video-games</option>
+    <option Value = "sk">skydiving</option>
+    <option Value = "bj">base-jumping</option>
+    <option Value = "bg">board-games</option>
+    <option Value = "po">polo</option>
+    <option Value = "ch">chess</option>
+    <option Value = "dan">dancing</option>
+    <option Value = "sl">sleeping</option>
+    <option Value = "cf">cross-fit</option>
+    <option Value = "bb">basketball</option>
+    </select><br><br>
+
+    <label for = "states">Choose the Insured relationship</label>
+    <select name ="ir">
+    <option Value = "owc">own-child</option>
+    <option Value = "otr">other-relative</option>
+    <option Value = "nif">not-in-family</option>
+    <option Value = "hus">husband</option>
+    <option Value = "wif">wife</option>
+    <option Value = "unm">unmarried</option>
+    </select>
+
+    <p>Capital Gains : <input type="text" name = "cg" /></p>
+
+    <p>Capital Loss : <input type="text" name = "cl" /></p>
+
+    <label for = "states">Choose the Insured type</label>
+    <select name ="it">
+    <option Value = "mvc">Multi-vehicle Collision</option>
+    <option Value = "svc">Single Vehicle Collision</option>
+    <option Value = "vet">Vehicle Theft</option>
+    <option Value = "pac">Parked Car</option>
+    </select><br><br>
+
+    <label for = "states">Choose the Collision type</label>
+    <select name ="ct">
+    <option Value = "rec">Rear Collision</option>
+    <option Value = "sic">Side Collision</option>
+    <option Value = "fro">Front Collision</option>
+    <option Value = "que">?</option>
+    </select><br><br>
+
+    <label for = "states">Choose the Incident severity</label>
+    <select name ="ins">
+    <option Value = "mid">Minor Damage</option>
+    <option Value = "tol">Total Loss</option>
+    <option Value = "mad">Major Damage</option>
+    <option Value = "trid">Trivial Damage</option>
+    </select><br><br>
+
+    <label for = "states">Choose the Authorities Contacted</label>
+    <select name ="ac">
+    <option Value = "poli">Police</option>
+    <option Value = "fir">Fire</option>
+    <option Value = "othe">Other</option>
+    <option Value = "amb">Ambulance</option>
+    <option Value = "non">None</option>
+    </select><br><br>
+
+    <label for = "states">Choose the Incident state</label>
+    <select name ="ist">
+    <option Value = "nys">NY</option>
+    <option Value = "scs">SC</option>
+    <option Value = "wvs">WV</option>
+    <option Value = "vas">VA</option>
+    <option Value = "ncs">NC</option>
+    <option Value = "pas">PA</option>
+    <option Value = "ohs">OH</option>
+    </select><br><br>
+
+    <label for = "states">Choose the Incident city</label>
+    <select name ="ic">
+    <option Value = "sprf">Springfield</option>
+    <option Value = "arl">Arlington</option>
+    <option Value = "colb">Columbus</option>
+    <option Value = "norb">Northbend</option>
+    <option Value = "hild">Hillsdale</option>
+    <option Value = "rivw">Riverwood</option>
+    <option Value = "nork">Northbrook</option>
+    </select>
+
+    <p>Number of Vehicles involved : <input type="text" name = "nv" /></p>
+
+    <label for = "states">Choose the Property damage</label>
+    <select name ="prd">
+    <option Value = "quest">?</option>
+    <option Value = "noda">NO</option>
+    <option Value = "yeda">YES</option>
+    </select>
+
+    <p>Bodily Injuries : <input type="text" name = "bi" /></p>
+
+    <p>Witnesses : <input type="text" name = "wi" /></p>
+
+    <label for = "states">Choose if Police report available</label>
+    <select name ="pra">
+    <option Value = "questi">?</option>
+    <option Value = "nore">NO</option>
+    <option Value = "yere">YES</option>
+    </select>
+
+    <p>Total Claim Amount : <input type="text" name = "tca" /></p>
+
+    <p>Injury Claim : <input type="text" name = "inc" /></p>
+
+    <p>Property Claim : <input type="text" name = "pc" /></p>
+
+    <p>Vehicle Claim : <input type="text" name = "vc" /></p>
+
+    <label for = "states">Choose the Auto make</label>
+    <select name ="am">
+    <option Value = "saa">Saab</option>
+    <option Value = "dod">Dodge</option>
+    <option Value = "subu">Suburu</option>
+    <option Value = "niss">Nissan</option>
+    <option Value = "chev">Chevrolet</option>
+    <option Value = "ford">Ford</option>
+    <option Value = "bmw">BMW</option>
+    <option Value = "toyo">Toyota</option>
+    <option Value = "aud">Audi</option>
+    <option Value = "accu">Accura</option>
+    <option Value = "volw">Volkswagen</option>
+    <option Value = "jee">Jeep</option>
+    <option Value = "merc">Mercedes</option>
+    <option Value = "hoda">Honda</option>
+    </select>
+
+    
+    
+    <p class='click'><input type="submit" value = "SUBMIT" /></p>
+    </form>
+    <p class='output'><b>{{y}}</b></p>
+</body>
+</html>
